@@ -86,4 +86,5 @@ else:
 pseudo = input("save your score by entering your pseudo\n")
 print("save\n\n score\t", score,"\npseudo\t", pseudo)
 #sauvegarde la game ici
+save_score(pseudo, score)
 sys.exit (0)
