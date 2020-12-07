@@ -56,7 +56,7 @@ def normal():
 
     while tries < 10 and tries != 20 :
         guess = input("enter your guess\n")
-    guess = guess.split(" ")
+        guess = guess.split(" ")
     
     if len(guess) == 4 and guess == colors:
         print("congrats, good answer\n")
